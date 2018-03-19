@@ -42,9 +42,16 @@ pip install pyshark
 
 ## Utilização
 
-Pode-se utilizar atributos para filtrar por IP:
+**Capturar todos os pacotes**
+
+~~~
+python3 sniffer42.py
+~~~
+
 
 **Filtrando IPs do DNS do IFC**
+
+Pode-se utilizar atributos para filtrar por IP:
 
 ~~~
 python3 sniffer42.py 191.52.54.4 191.52.52.6
